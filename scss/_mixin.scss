@@ -1,0 +1,18 @@
+@mixin text-style {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+@mixin links {
+  display: inline-block;
+  background-color: $maincolor;
+  color: $lightcream;
+  padding: 15px 31px;
+  border-radius: 6px;
+}
